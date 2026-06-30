@@ -13,12 +13,6 @@ def urlGetContents(url):
     #reading contents of the website
     return f.read()
 
-def findColumn(table, columnName):
-    for i in range(len(table[0])):
-        if table[0][i] == columnName:
-            return i
-    return -1
-
 # Constants
 DISCTRICTS_COUNT = 32
 REGIONS_COUNT = 4
